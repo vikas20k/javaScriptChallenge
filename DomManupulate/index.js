@@ -1,4 +1,4 @@
-// Task1 Select an HTML elements by its ID and change its text content.
+// Task 1 Select an HTML elements by its ID and change its text content.
 const task1 = document.getElementById('task1')
 task1.textContent = "hellow vikas kumar "
 
