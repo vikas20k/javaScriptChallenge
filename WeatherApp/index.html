@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheater App</title>
+    <link rel="icon" href="./image/suncloud.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="cantainer">
+            <div class="input">
+                <input type="text" placeholder="Enter your city name" class="cityName" />
+                <button class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="errorImg">
+                <img src="./image/notfound.png" alt="" width="300px">
+                <p class="error">Oops! Data not found...</p>
+            </div>
+
+            <div class="result">
+                <div class="imgDiv">
+                    <img src="./image/suncloud.png" alt="image" width="160px" class="weatherimg">
+
+                </div>
+
+                <h1 class="temp">22<sup>°C</sup></h1>
+                <p class="city">City</p>
+                <!-- <p class="about"> today is hot day</p> -->
+                <div class="bottom">
+                    <div class="left">
+                        <i class="fa-solid fa-droplet"></i>
+                        <p>Humidity</p>
+                        <p class="humidity">50%</p>
+                    </div>
+                    <div class="right">
+                        <i class="fa-solid fa-wind"></i>
+                        <p>wind</p>
+                        <p class="wind">20 Km/H</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
